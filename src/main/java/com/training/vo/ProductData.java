@@ -4,7 +4,7 @@ public class ProductData {
 	
 	private String name;
 	private String brand;
-	private int Id;
+	private int Id; 
 	String getName() {
 		return name;
 	}
