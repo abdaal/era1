@@ -5,6 +5,10 @@ public class SvnClass {
 		System.out.println("hello World");
 		System.out.println("Hello SVN");
 	}
-	
+	public SvnClass(){
+		
+		
+		
+	}
 
 }
