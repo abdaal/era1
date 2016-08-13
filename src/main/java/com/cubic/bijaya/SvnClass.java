@@ -10,6 +10,8 @@ public class SvnClass {
 		System.out.println("hello World");
 
 		System.out.println("Hello SVN");
+		
+		System.out.println("Hello Batch6");
 
 	}
 }
