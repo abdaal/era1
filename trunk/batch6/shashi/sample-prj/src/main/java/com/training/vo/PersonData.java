@@ -4,6 +4,7 @@ public class PersonData {
 	
 	private String firstName;
 	private String lastName;
+	private int Id;
 	public String getFirstName() {
 		return firstName;
 	}
