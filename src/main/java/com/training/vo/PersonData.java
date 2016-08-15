@@ -4,13 +4,13 @@ public class PersonData {
 	
 	private String firstName;
 	private String lastName;
-	private String middleName;
+	private String MName;
 	
 	public String getMiddleName() {
-		return middleName;
+		return MName;
 	}
 	public void setMiddleName(String middleName) {
-		this.middleName = middleName;
+		this.MName = middleName;
 	}
 	public String getFirstName() {
 		return firstName;
