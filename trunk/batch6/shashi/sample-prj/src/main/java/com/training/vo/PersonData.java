@@ -3,7 +3,7 @@ package com.training.vo;
 public class PersonData {
 	
 	private String firstName;
-	private String lastName;
+	private String lName;
 	private String MName;
 	private String phoneNumber;
 	
@@ -26,10 +26,10 @@ public class PersonData {
 		this.firstName = firstName;
 	}
 	public String getLastName() {
-		return lastName;
+		return lName;
 	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setLastName(String lName) {
+		this.lName = lName;
 	}
 	
 	
