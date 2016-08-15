@@ -1,10 +1,10 @@
 package com.training.vo;
 
 public class PersonData {
-	
+
 	private String firstName;
-	private String lName;
-	private String MName;
+	private String lastName;
+	private String midName;
 	private String phoneNumber;
 	
 	String getPhoneNumber() {
@@ -13,25 +13,29 @@ public class PersonData {
 	void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
-	public String getMiddleName() {
-		return MName;
+
+	public void setMidName(String midName) {
+		this.midName = midName;
 	}
-	public void setMiddleName(String middleName) {
-		this.MName = middleName;
-	}
+	
+	public String getMidName(String midName) {
+		return midName;
+	}	
+
 	public String getFirstName() {
 		return firstName;
 	}
+
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+
 	public String getLastName() {
-		return lName;
+		return lastName;
 	}
-	public void setLastName(String lName) {
-		this.lName = lName;
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
-	
-	
-	
+
 }
