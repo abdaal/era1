@@ -4,7 +4,7 @@ public class PersonData {
 
 	private String firstName;
 	private String lastName;
-	private String midName;
+	private String mName;
 	private String phoneNumber;
 	
 	String getPhoneNumber() {
@@ -14,14 +14,13 @@ public class PersonData {
 		this.phoneNumber = phoneNumber;
 	}
 
-	public void setMidName(String midName) {
-		this.midName = midName;
-	}
-	
-	public String getMidName(String midName) {
-		return midName;
-	}	
 
+	public String getmName() {
+		return mName;
+	}
+	public void setmName(String mName) {
+		this.mName = mName;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
